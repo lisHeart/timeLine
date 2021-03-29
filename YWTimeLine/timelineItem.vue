@@ -35,7 +35,8 @@
 <script>
   import timelineItemBase from './timelineItemBase.vue'
   import TimelineCard from "./timelineCard";
-  import {getPicName} from "@/components/YWTimeLine/dataMap";
+  import {getPicName} from "./dataMap";
+
 
   export default {
     components: {TimelineCard},
